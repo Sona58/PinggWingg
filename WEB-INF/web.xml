@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+	<display-name>Welcome to Tomcat</display-name>
+	<description>Welcome to Tomcat</description>
+	
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>SetProfile</servlet-name>
+		<servlet-class>setprofile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetProfile</servlet-name>
+		<url-pattern>/setprofile</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>SetProfilePic</servlet-name>
+		<servlet-class>setprofilepic</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetProfilePic</servlet-name>
+		<url-pattern>/setprofilepic</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>Message</servlet-name>
+		<servlet-class>message</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Message</servlet-name>
+		<url-pattern>/message</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>Message1</servlet-name>
+		<servlet-class>message1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Message1</servlet-name>
+		<url-pattern>/message1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendRequest</servlet-name>
+		<servlet-class>sendrequest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendRequest</servlet-name>
+		<url-pattern>/sendrequest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AccReq</servlet-name>
+		<servlet-class>accreq</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccReq</servlet-name>
+		<url-pattern>/accreq</url-pattern>
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>DecReq</servlet-name>
+		<servlet-class>decreq</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DecReq</servlet-name>
+		<url-pattern>/decreq</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Group</servlet-name>
+		<servlet-class>group</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Group</servlet-name>
+		<url-pattern>/group</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ForgetPassword</servlet-name>
+		<servlet-class>frgt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ForgetPassword</servlet-name>
+		<url-pattern>/frgt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Mailer</servlet-name>
+		<servlet-class>Mailer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Mailer</servlet-name>
+		<url-pattern>/Mailer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditAll</servlet-name>
+		<servlet-class>editall</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditAll</servlet-name>
+		<url-pattern>/editall</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditIMG</servlet-name>
+		<servlet-class>editimg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditIMG</servlet-name>
+		<url-pattern>/editimg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditPass</servlet-name>
+		<servlet-class>editpass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditPass</servlet-name>
+		<url-pattern>/editpass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditStatus</servlet-name>
+		<servlet-class>editstatus</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditStatus</servlet-name>
+		<url-pattern>/editstatus</url-pattern>
+	</servlet-mapping>
+</web-app>
